@@ -4,3 +4,7 @@ node default {
      content => 'This is a readme.',
      } 
 }
+
+node 'puppetmasterdylan' {
+    include role::master_server
+}
